@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.fortysevendeg.swipelistview;
+package be.drizzlyday.samsungswipelistview.lib;
 
 /**
  * Listener to get callback notifications for the SwipeListView

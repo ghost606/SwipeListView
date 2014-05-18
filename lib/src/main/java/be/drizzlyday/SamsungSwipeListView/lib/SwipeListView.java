@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.fortysevendeg.swipelistview;
+package be.drizzlyday.samsungswipelistview.lib;
 
 import android.content.Context;
 import android.content.res.TypedArray;

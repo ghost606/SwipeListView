@@ -29,7 +29,7 @@ public class ListFragment extends Fragment implements OnRefreshListener {
 
     private ContentAdapter contentAdapter;
     private PullToRefreshLayout pullToRefreshLayout;
-    private SwipeListView listView;
+
 
     private List<ContentModel> content = new ArrayList<ContentModel>();
 

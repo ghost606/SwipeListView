@@ -1,4 +1,4 @@
-package com.fortysevendeg.swipelistview;
+package be.drizzlyday.samsungswipelistview.lib;
 
 public class BaseSwipeListViewListener implements SwipeListViewListener {
     @Override

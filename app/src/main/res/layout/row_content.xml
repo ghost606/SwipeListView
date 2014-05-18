@@ -17,7 +17,6 @@
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="@string/content_push_back"
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -53,7 +52,6 @@
                 android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/content_name"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -63,7 +61,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_name"
                 android:ellipsize="end"
-                android:text="@string/content_content"
                 android:textSize="14sp" />
 
             <ImageView

@@ -18,14 +18,18 @@
  * limitations under the License.
  */
 
-package com.fortysevendeg.swipelistview;
+package be.drizzlyday.samsungswipelistview.lib;
 
 import android.graphics.Rect;
 import android.os.Build;
 import android.os.Handler;
 import android.support.v4.view.MotionEventCompat;
 import android.util.Log;
-import android.view.*;
+import android.view.MotionEvent;
+import android.view.VelocityTracker;
+import android.view.View;
+import android.view.ViewConfiguration;
+import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
