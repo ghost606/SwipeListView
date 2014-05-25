@@ -17,7 +17,7 @@ import android.widget.ListView;
 
 public class MainActivity extends Activity implements AdapterView.OnItemClickListener {
 
-    private SwipeListView listView;
+    private SwipeListView  listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
