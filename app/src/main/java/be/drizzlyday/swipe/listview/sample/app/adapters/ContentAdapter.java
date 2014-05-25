@@ -1,4 +1,4 @@
-package be.drizzlyday.swipe.listview.app.adapters;
+package be.drizzlyday.swipe.listview.sample.app.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import be.drizzlyday.samsungswipelistview.app.R;
-import be.drizzlyday.swipe.listview.app.models.ContentModel;
+import be.drizzlyday.swipe.listview.sample.app.R;
+import be.drizzlyday.swipe.listview.sample.app.models.ContentModel;
 
 /**
  * Created by Kevin on 18/03/14.

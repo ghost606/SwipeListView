@@ -1,6 +1,6 @@
-package be.drizzlyday.swipe.listview.app.models;
+package be.drizzlyday.swipe.listview.sample.app.models;
 
-import be.drizzlyday.samsungswipelistview.app.R;
+import be.drizzlyday.swipe.listview.sample.app.R;
 
 /**
  * Created by Kevin on 23/04/2014.

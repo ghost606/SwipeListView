@@ -1,20 +1,19 @@
-package be.drizzlyday.swipe.listview.app;
+package be.drizzlyday.swipe.listview.sample.app;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import be.drizzlyday.samsungswipelistview.app.R;
-import be.drizzlyday.swipe.listview.app.adapters.ContentAdapter;
-import be.drizzlyday.swipe.listview.app.data.ContentData;
-import be.drizzlyday.swipe.listview.app.models.ContentModel;
+import be.drizzlyday.swipe.listview.SwipeListView;
+import be.drizzlyday.swipe.listview.sample.app.adapters.ContentAdapter;
+import be.drizzlyday.swipe.listview.sample.app.data.ContentData;
+import be.drizzlyday.swipe.listview.sample.app.models.ContentModel;
 
 public class MainActivity extends Activity {
 
-    private ListView listView;
+    private SwipeListView listView;
     private ContentAdapter adapter;
     private List<ContentModel> content = new ArrayList<ContentModel>();
 
@@ -25,7 +24,7 @@ public class MainActivity extends Activity {
 
         content = ContentData.CreateData();
 
-        listView = (ListView) findViewById(R.id.lv_content);
+        listView = (SwipeListView) findViewById(R.id.lv_content);
 
         adapter = new ContentAdapter(this, R.layout.row_content, content);;
         listView.setAdapter(adapter);

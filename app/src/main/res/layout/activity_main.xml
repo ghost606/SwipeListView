@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     tools:context="be.drizzlyday.example.app.MainActivity">
 
-    <ListView
+    <be.drizzlyday.swipe.listview.SwipeListView
         android:id="@+id/lv_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </ListView>
+    </be.drizzlyday.swipe.listview.SwipeListView>
 
 </RelativeLayout>
