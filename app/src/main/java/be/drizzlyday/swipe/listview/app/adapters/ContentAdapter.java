@@ -1,4 +1,4 @@
-package be.drizzlyday.example.testswipelistview.app.adapters;
+package be.drizzlyday.swipe.listview.app.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,13 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.testswipelistview.app.R;
-import be.drizzlyday.example.testswipelistview.app.models.ContentModel;
-
 import java.util.List;
+
+import be.drizzlyday.samsungswipelistview.app.R;
+import be.drizzlyday.swipe.listview.app.models.ContentModel;
 
 /**
  * Created by Kevin on 18/03/14.

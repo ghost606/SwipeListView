@@ -1,9 +1,9 @@
-package be.drizzlyday.example.testswipelistview.app.data;
+package be.drizzlyday.swipe.listview.app.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import be.drizzlyday.example.testswipelistview.app.models.ContentModel;
+import be.drizzlyday.swipe.listview.app.models.ContentModel;
 
 /**
  * Created by Kevin on 23/04/2014.
