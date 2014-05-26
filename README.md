@@ -1,4 +1,4 @@
-SamsungSwipeListView
-====================
+SwipeListView
+=============
 
-Samsungs Swipe ListView
+This is a Swipe ListView library. For building different swipe animations.
