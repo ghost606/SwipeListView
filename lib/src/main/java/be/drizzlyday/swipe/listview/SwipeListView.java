@@ -99,13 +99,12 @@ public class SwipeListView extends ListView {
                     if (swapRight) {
                         itemView.setBackgroundColor(Color.GREEN);
                         Log.d("SwipeListView", "SwipeRight");
+                        generateRevealAnimate(itemView);
 
                     } else {
                         itemView.setBackgroundColor(Color.BLUE);
                         Log.d("SwipeListView", "SwipeLeft");
                     }
-                } else if (Math.abs(deltaX) > viewWidth / 2) {
-                    Log.d("SwipeListView", "Swipe other direction");
                 }
 
                 velocityTracker.recycle();
@@ -138,5 +137,12 @@ public class SwipeListView extends ListView {
                 break;
         }
         return super.onTouchEvent(motionEvent);
+    }
+
+    private void generateRevealAnimate(final View view) {
+        animate(view)
+                .translationX(10)
+                .setDuration(100)
+                .setListener(null);
     }
 }
