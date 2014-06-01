@@ -21,14 +21,16 @@ public class ContentAdapter extends ArrayAdapter<ContentModel> {
     private final Context context;
     private final int layout;
     private List<ContentModel> data;
+    private View.OnTouchListener onTouchListener;
 
     // Constructor
-    public ContentAdapter(Context context, int layout, List<ContentModel> data) {
+    public ContentAdapter(Context context, int layout, List<ContentModel> data, View.OnTouchListener onTouchListener) {
         super(context, layout, data);
 
         this.context = context;
         this.layout = layout;
         this.data = data;
+        this.onTouchListener = onTouchListener;
     }
 
     @Override
@@ -46,6 +48,7 @@ public class ContentAdapter extends ArrayAdapter<ContentModel> {
             //IMAGEVIEWS
             viewHolder.ivIcon = (ImageView) convertView.findViewById(R.id.iv_icon);
 
+            convertView.setOnTouchListener(onTouchListener);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) convertView.getTag();

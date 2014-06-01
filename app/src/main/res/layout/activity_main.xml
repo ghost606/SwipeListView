@@ -1,14 +1,24 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="be.drizzlyday.example.app.MainActivity">
+    tools:context=".ListViewAnimations" >
 
-    <be.drizzlyday.swipe.listview.SwipeListView
-        android:id="@+id/lv_content"
+    <view
+        class="be.drizzlyday.swipe.listview.sample.app.BackgroundContainer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/listViewBackground">
 
-    </be.drizzlyday.swipe.listview.SwipeListView>
+        <ListView
+            android:id="@+id/listview"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
-</RelativeLayout>
+    </view>
+
+</LinearLayout>
+

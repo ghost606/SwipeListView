@@ -99,7 +99,7 @@ public class SwipeListView extends ListView {
                     if (swapRight) {
                         itemView.setBackgroundColor(Color.GREEN);
                         Log.d("SwipeListView", "SwipeRight");
-                        generateRevealAnimate(itemView);
+
 
                     } else {
                         itemView.setBackgroundColor(Color.BLUE);
@@ -137,12 +137,5 @@ public class SwipeListView extends ListView {
                 break;
         }
         return super.onTouchEvent(motionEvent);
-    }
-
-    private void generateRevealAnimate(final View view) {
-        animate(view)
-                .translationX(10)
-                .setDuration(100)
-                .setListener(null);
     }
 }
